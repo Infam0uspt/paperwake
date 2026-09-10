@@ -1,0 +1,9 @@
+Found 2 packages (page 1 of 1)
+
+exocet22/btAudio
+Library • 1.1.0 • Published on Sun Mar 23 11:13:40 2025
+High level interface to the Advanced Audio Distribution Profile (A2DP) available in ESP32 boards.
+
+raspiaudio/Muse_library
+Library • 1.0.5 • Published on Mon Dec  9 15:43:16 2024
+A library for the ESP MUSE devices (LUXE, PROTO, MANGA, RADIO) by Raspiaudio. Provides easy-to-use functions for audio playback, WiFi streaming, Bluetooth A2DP, LED control, and more.

@@ -1,0 +1,145 @@
+{
+  "comment": "Mapping of output font headers to TTF sources and parameters. weight_axis is the FreeType tag for the weight axis (wght). instance_weight is the value to set for that axis (400=Regular, 500=Medium, 600=SemiBold, 700=Bold).",
+  "fonts": [
+    {
+      "output": "GoogleSansCode_SemiBold105pt7b",
+      "ttf": "GoogleSansCode_wght.ttf",
+      "family": "GoogleSansCode",
+      "weight_name": "SemiBold",
+      "size": 105,
+      "first": 48,
+      "last": 57,
+      "yAdvance": 257
+    },
+    {
+      "output": "GoogleSansCode_Medium44pt7b",
+      "ttf": "GoogleSansCode_wght.ttf",
+      "family": "GoogleSansCode",
+      "weight_name": "Medium",
+      "size": 44,
+      "first": 48,
+      "last": 58,
+      "yAdvance": 108
+    },
+    {
+      "output": "GoogleSansCode_MediumWakeTime",
+      "ttf": "GoogleSansCode_wght.ttf",
+      "family": "GoogleSansCode",
+      "weight_name": "Medium",
+      "size": 32,
+      "first": 48,
+      "last": 58,
+      "yAdvance": 76
+    },
+    {
+      "output": "GoogleSansFlex_Regular12pt7b",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Regular",
+      "size": 12,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 29
+    },
+    {
+      "output": "GoogleSansFlex_RegularAlarmCountdown",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Regular",
+      "size": 17,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 22
+    },
+    {
+      "output": "GoogleSansFlex_RegularAlarmTime",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Regular",
+      "size": 25,
+      "first": 48,
+      "last": 58,
+      "yAdvance": 34
+    },
+    {
+      "output": "GoogleSansFlex_RegularSettingsRow",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Regular",
+      "size": 21,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 32
+    },
+    {
+      "output": "GoogleSansFlex_RegularSettingsTab",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Regular",
+      "size": 25,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 42
+    },
+    {
+      "output": "GoogleSansFlex_MediumWakeSubtitle",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Medium",
+      "size": 21,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 51
+    },
+    {
+      "output": "GoogleSansFlex_SemiBoldSettingsTab",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "SemiBold",
+      "size": 25,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 44
+    },
+    {
+      "output": "GoogleSansFlex_SemiBoldSettingsTitle",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "SemiBold",
+      "size": 33,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 61
+    },
+    {
+      "output": "GoogleSansFlex_SemiBoldWakeTitle",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "SemiBold",
+      "size": 44,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 81
+    },
+    {
+      "output": "GoogleSansFlex_BoldSmall",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Bold",
+      "size": 12,
+      "first": 32,
+      "last": 255,
+      "yAdvance": 29
+    },
+    {
+      "output": "GoogleSansFlex_BoldAlarmTime",
+      "ttf": "GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+      "family": "GoogleSansFlex",
+      "weight_name": "Bold",
+      "size": 25,
+      "first": 48,
+      "last": 58,
+      "yAdvance": 34
+    }
+  ]
+}

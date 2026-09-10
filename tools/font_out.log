@@ -1,0 +1,59 @@
+Regenerating 14 fonts...
+
+[1/14] 
+Processing GoogleSansCode_SemiBold105pt7b (GoogleSansCode_wght.ttf, size=105, weight=SemiBold, range=0x30-0x39)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansCode_SemiBold105pt7b.h (10 glyphs, 18684 bytes bitmap)
+
+[2/14] 
+Processing GoogleSansCode_Medium44pt7b (GoogleSansCode_wght.ttf, size=44, weight=Medium, range=0x30-0x3A)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansCode_Medium44pt7b.h (11 glyphs, 3399 bytes bitmap)
+
+[3/14] 
+Processing GoogleSansCode_MediumWakeTime (GoogleSansCode_wght.ttf, size=32, weight=Medium, range=0x30-0x3A)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansCode_MediumWakeTime.h (11 glyphs, 1794 bytes bitmap)
+
+[4/14] 
+Processing GoogleSansFlex_Regular12pt7b (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=12, weight=Regular, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_Regular12pt7b.h (224 glyphs, 4965 bytes bitmap)
+
+[5/14] 
+Processing GoogleSansFlex_RegularAlarmCountdown (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=17, weight=Regular, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_RegularAlarmCountdown.h (224 glyphs, 10181 bytes bitmap)
+
+[6/14] 
+Processing GoogleSansFlex_RegularAlarmTime (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=25, weight=Regular, range=0x30-0x3A)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_RegularAlarmTime.h (11 glyphs, 1032 bytes bitmap)
+
+[7/14] 
+Processing GoogleSansFlex_RegularSettingsRow (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=21, weight=Regular, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_RegularSettingsRow.h (224 glyphs, 14937 bytes bitmap)
+
+[8/14] 
+Processing GoogleSansFlex_RegularSettingsTab (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=25, weight=Regular, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_RegularSettingsTab.h (224 glyphs, 21227 bytes bitmap)
+
+[9/14] 
+Processing GoogleSansFlex_MediumWakeSubtitle (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=21, weight=Medium, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_MediumWakeSubtitle.h (224 glyphs, 14937 bytes bitmap)
+
+[10/14] 
+Processing GoogleSansFlex_SemiBoldSettingsTab (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=25, weight=SemiBold, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_SemiBoldSettingsTab.h (224 glyphs, 21227 bytes bitmap)
+
+[11/14] 
+Processing GoogleSansFlex_SemiBoldSettingsTitle (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=33, weight=SemiBold, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_SemiBoldSettingsTitle.h (224 glyphs, 36908 bytes bitmap)
+
+[12/14] 
+Processing GoogleSansFlex_SemiBoldWakeTitle (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=44, weight=SemiBold, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_SemiBoldWakeTitle.h (224 glyphs, 66128 bytes bitmap)
+
+[13/14] 
+Processing GoogleSansFlex_BoldSmall (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=12, weight=Bold, range=0x20-0xFF)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_BoldSmall.h (224 glyphs, 4965 bytes bitmap)
+
+[14/14] 
+Processing GoogleSansFlex_BoldAlarmTime (GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf, size=25, weight=Bold, range=0x30-0x3A)
+  Generated C:\Users\AlbuStaff\Desktop\paperwake-main\include\Fonts\GoogleSansFlex_BoldAlarmTime.h (11 glyphs, 1032 bytes bitmap)
+
+Done!

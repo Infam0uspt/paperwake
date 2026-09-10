@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\AlbuStaff\Desktop\paperwake-main\tools\regenerate_fonts.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\AlbuStaff\Desktop\paperwake-main\tools\regenerate_fonts.py", line 116, in main
+    generate_font(ttf_path=ttf_path, output_name=output_name, size=fc['size'],
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  first=first, last=last, weight_name=fc['weight_name'], out_dir=out_dir)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AlbuStaff\Desktop\paperwake-main\tools\regenerate_fonts.py", line 62, in generate_font
+    y_advance = int(face.size.metrics.height >> 6) if face.size.metrics.height > 0 else size
+                                                      ^^^^^^^^^^^^^^^^^
+AttributeError: 'SizeMetrics' object has no attribute 'metrics'

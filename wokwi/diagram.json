@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "PaperWake",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-s3", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-st7735", "id": "lcd", "top": 120, "left": 300, "attrs": { "color": "red" } },
+    { "type": "wokwi-rotary-encoder", "id": "enc", "top": 300, "left": 0, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "btn_up", "top": 220, "left": 120, "attrs": {} },
+    { "type": "wokwi-pushbutton", "id": "btn_down", "top": 380, "left": 120, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:12", "lcd:CLK", "green", [ "v0" ] ],
+    [ "esp:11", "lcd:DIN", "orange", [ "v0" ] ],
+    [ "esp:9", "lcd:DC", "yellow", [ "v0" ] ],
+    [ "esp:8", "lcd:RST", "white", [ "v0" ] ],
+    [ "esp:10", "lcd:CS", "blue", [ "v0" ] ],
+    [ "esp:7", "lcd:BL", "black", [ "v0" ] ],
+
+    [ "enc:CLK", "esp:15", "green", [ "h0" ] ],
+    [ "enc:DT", "esp:16", "orange", [ "h0" ] ],
+    [ "enc:SW", "esp:17", "purple", [ "h0" ] ],
+
+    [ "btn_up:1", "esp:18", "blue", [ "h0" ] ],
+    [ "btn_up:2", "esp:GND.1", "black", [ "h0" ] ],
+    [ "btn_down:1", "esp:19", "brown", [ "h0" ] ],
+    [ "btn_down:2", "esp:GND.2", "black", [ "h0" ] ]
+  ]
+}

@@ -1,0 +1,37 @@
+Found 9 packages (page 1 of 1)
+
+exocet22/btAudio
+Library • 1.1.0 • Published on Sun Mar 23 11:13:40 2025
+High level interface to the Advanced Audio Distribution Profile (A2DP) available in ESP32 boards.
+
+clemensatelektor/Elektor_AudioDSP
+Library • 0.4.0 • Published on Tue Aug 27 09:58:23 2024
+Driver for the Elektor Audio DSP FX Processor board with ESP32-PICO-KIT and ADAU1701. This library takes care of low-level stuff like EEPROM programming, I2S configuration and I2C communication between the ESP32 and the ADAU1701. Includes several examples showing different possibilities of using the board.
+
+earlephilhower/BackgroundAudio
+Library • 1.4.4 • Published on Tue Oct 28 17:19:22 2025
+Plays MP3, AAC, and WAV via an IRQ based mechanism to allow multitasking while playing
+
+tanakamasayuki/EspBle
+Library • 1.3.0 • Published on Mon Aug 17 01:30:11 2026
+General-purpose Bluetooth Low Energy library for ESP32 Arduino.
+
+kuba2k2/BTstack
+Library • 1.6.2-pkg.1 • Published on Thu Sep 25 10:06:51 2025
+Dual-mode Bluetooth stack, with small memory footprint
+
+raspiaudio/Muse_library
+Library • 1.0.5 • Published on Mon Dec  9 15:43:16 2024
+A library for the ESP MUSE devices (LUXE, PROTO, MANGA, RADIO) by Raspiaudio. Provides easy-to-use functions for audio playback, WiFi streaming, Bluetooth A2DP, LED control, and more.
+
+tanakamasayuki/PCMFlowBluetooth
+Library • 1.0.1 • Published on Tue Aug 25 05:15:50 2026
+Bluetooth Classic audio add-on for PCMFlow with A2DP SBC encode/decode, bounded queues, an A2DP Sink PCMSource, and M5Stack speaker/microphone examples for the original ESP32.
+
+herobrine-pixel/BluetoothTonePlayer
+Library • 1.0.2 • Published on Sun Dec  7 05:21:04 2025
+Bluetooth-controlled tone & melody player for Arduino using HC-05 (A2DP NOT supported).
+
+tomaskovacik/BK8000L
+Library • 1.0.0 • Published on Sun Dec  2 19:44:44 2018
+A library to control BK8000L based bluetooth audio module.

@@ -1,0 +1,1 @@
+UnknownEnvNamesError: Unknown environment names 'bluetooth'. Valid names are 'settings-shifted, led_strip_test, battery, esp32-s3-devkitc-1'

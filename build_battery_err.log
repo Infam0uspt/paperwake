@@ -1,0 +1,7 @@
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceFunction.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourcePROGMEM.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceICYStream.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceHTTPStream.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceID3.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceSPIRAMBuffer.cpp.o] Error 1
+*** [.pio\build\battery\lib4be\ESP8266Audio\AudioFileSourceSD.cpp.o] Error 1
