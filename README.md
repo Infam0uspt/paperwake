@@ -27,6 +27,8 @@ PaperWake is a simple, distraction-free E-ink alarm clock. No apps, no subscript
 - **Audio:** MAX98357A I2S amplifier  + 3W speaker
 - **Lighting:** SK6812 LEDs
 - **Inputs:** EC11 rotary encoder + NO-pushbuttons
+- **Optional — Battery:** Li-Ion/LiPo battery with voltage divider to GPIO 38, enabled with `-DENABLE_BATTERY`
+- **Optional — RTC:** DS3231 module on I2C (GPIO 21=SDA, GPIO 3=SCL), enabled with `-DENABLE_RTC`
 
 The print files for the enclosure can be found on my [Printables page](https://www.printables.com/model/1829351-paperwake-an-esp32-powered-e-ink-alarm-clock)
 
