@@ -35,7 +35,7 @@ void initRtc() {
     g_wire->beginTransmission(kRtcI2cAddr);
     g_wire->write(kRtcRegControl);
     g_wire->endTransmission();
-    g_wire->requestFrom(kRtcI2cAddr, 1);
+    g_wire->requestFrom((uint8_t)kRtcI2cAddr, (uint8_t)1);
     uint8_t ctrl = g_wire->read();
     // Clear the Enable Oscillator (EOSC) bit so the DS3231 keeps time on battery.
     ctrl &= ~(1 << 7);
@@ -59,7 +59,7 @@ bool readRtcTime(uint8_t &hours, uint8_t &minutes, uint8_t &seconds) {
   g_wire->beginTransmission(kRtcI2cAddr);
   g_wire->write(kRtcRegSeconds);
   if (g_wire->endTransmission() != 0) return false;
-  g_wire->requestFrom(kRtcI2cAddr, 3);
+  g_wire->requestFrom((uint8_t)kRtcI2cAddr, (uint8_t)3);
   if (g_wire->available() < 3) return false;
   seconds = bcdToDec(g_wire->read() & 0x7F);
   minutes = bcdToDec(g_wire->read());
@@ -72,7 +72,7 @@ bool readRtcDate(uint8_t &day, uint8_t &month, uint8_t &year) {
   g_wire->beginTransmission(kRtcI2cAddr);
   g_wire->write(0x03);
   if (g_wire->endTransmission() != 0) return false;
-  g_wire->requestFrom(kRtcI2cAddr, 3);
+  g_wire->requestFrom((uint8_t)kRtcI2cAddr, (uint8_t)3);
   if (g_wire->available() < 3) return false;
   day = bcdToDec(g_wire->read());
   month = bcdToDec(g_wire->read() & 0x1F);

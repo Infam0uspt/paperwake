@@ -1,6 +1,8 @@
 # PaperWake
 
 > **Aviso:** Este código ainda não foi testado em hardware real. As funcionalidades abaixo foram implementadas e compilam, mas precisam de validação física.
+>
+> **Nota sobre IA:** Parte das alterações mais recentes foram desenvolvidas com assistência de IA. O autor original manteve a arquitetura, UI e decisões de design; a IA foi usada para gerar, depurar e iterar código.
 
 PaperWake is a simple, distraction-free E-ink alarm clock. No apps, no subscriptions, just a clock that wakes you up without distractions.
 
@@ -85,7 +87,6 @@ Enable with build flag `-DENABLE_RTC` or use the `rtc` environment. Toggle "RTC"
 - `src/EpaperDisplay.cpp`, `src/EpaperDisplay.h` — `powerLossWarning` parameter
 - `src/TimeSync.cpp`, `src/TimeSync.h` — `initRtc()`, RTC fallback
 - `platformio.ini` — added `battery`, `rtc`, `battery-rtc` environments
-- `wokwi/` — Wokwi simulation scaffold (ESP32-S3 + ST7735 + encoder + buttons)
 
 ### Build Verification
 All 6 PlatformIO environments build successfully:
@@ -117,3 +118,8 @@ This is a personal project and still a work in progress... The first prototype i
 I used Claude quite extensively while developing the firmware for PaperWake. I designed the architecture, UI and overall functionality myself, but relied on AI for a lot of the actual code generation, debugging and iteration.
 
 I’m sharing this because I think it’s useful context when looking at the code. I’m not a professional software developer, and AI made it possible for me to build a GUI and firmware that’s way beyond what I could have written from scratch.
+
+## Credits
+
+Original PaperWake project and firmware created by **Infam0uspt**.  
+Fork maintained at: https://github.com/Infam0uspt/paperwake

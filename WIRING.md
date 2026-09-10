@@ -43,3 +43,31 @@
 ## Still-free pins (expansion header)
 
 - GPIO 38 — currently used for battery ADC; avoid if adding new peripherals
+
+## Optional: Battery module (gated by `-DENABLE_BATTERY`)
+
+| Component | GPIO / pin | Notes |
+|---|---|---|
+| Battery + (Li-Ion/LiPo) | GPIO 38 via 100k resistor | ADC1_CH0; voltage divider halves battery voltage |
+| Battery - (GND) | GND | Common ground |
+| VBUS / USB 5V sense | Optional ADC or digital input | Currently inferred from battery voltage threshold |
+
+Wiring notes:
+- Use a 2:1 voltage divider (2x 100k resistors) from battery + to GPIO 38.
+- Build flag: `-DENABLE_BATTERY` or PlatformIO env `battery`.
+- Setting "Battery" must be enabled in System tab for power-loss detection.
+
+## Optional: DS3231 RTC module (gated by `-DENABLE_RTC`)
+
+| DS3231 pin | ESP32-S3 pin | Notes |
+|---|---|---|
+| VCC | 3.3V | |
+| GND | GND | |
+| SDA | GPIO 21 | |
+| SCL | GPIO 3 | Strapping pin; verify boot behavior with your module |
+
+Wiring notes:
+- I2C address: `0x68`.
+- Build flag: `-DENABLE_RTC` or PlatformIO env `rtc`.
+- Setting "RTC" must be enabled in System tab.
+- NTP syncs the RTC when WiFi is available; RTC keeps time without WiFi.

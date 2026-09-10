@@ -6,6 +6,7 @@ Todas as mudanças notáveis neste projeto estão documentadas neste ficheiro.
 
 ### Aviso
 - Este release ainda não foi testado em hardware real.
+- Parte das alterações foram desenvolvidas com assistência de IA.
 
 ### mDNS
 - Registado `paperwake.local` no WiFi
@@ -26,10 +27,6 @@ Todas as mudanças notáveis neste projeto estão documentadas neste ficheiro.
 - DS3231 via I2C (GPIO 21=SDA, GPIO 3=SCL, endereço 0x68)
 - NTP sincroniza RTC quando WiFi disponível
 - RTC usado como fallback quando WiFi/NTP indisponível
-
-### Simulador Wokwi
-- Scaffold mínimo em `wokwi/` com ESP32-S3 + ST7735 + encoder + botões
-- Loop de relógio, alarme, menu de settings e snooze
 
 ### Compilação
 - Todos os 6 ambientes PlatformIO compilam com sucesso
@@ -64,7 +61,7 @@ Todas as mudanças notáveis neste projeto estão documentadas neste ficheiro.
 
 ### Bateria + Deep Sleep (env `battery`)
 - Módulo Power.h/.cpp (atrás de -DENABLE_BATTERY)
-- Reading ADC do divisor de tensão (GPIO 21)
+- Reading ADC do divisor de tensão (GPIO 38, ADC1_CH0)
 - Deep sleep com wakeup por timer + botões (GPIO 1, 2, 15)
 - Setting "Sleep refresh" (Static/30min/1h/Off)
 - Ícone de bateria no clock face
