@@ -1,8 +1,8 @@
 # PaperWake
 
-> **Aviso:** Este código ainda não foi testado em hardware real. As funcionalidades abaixo foram implementadas e compilam, mas precisam de validação física.
+> **Warning:** This code has not yet been tested on real hardware. The features below were implemented and compile, but need physical validation.
 >
-> **Nota sobre IA:** Parte das alterações mais recentes foram desenvolvidas com assistência de IA. O autor original manteve a arquitetura, UI e decisões de design; a IA foi usada para gerar, depurar e iterar código.
+> **Note on AI:** Some of the recent changes were developed with AI assistance. The original author maintained the architecture, UI and design decisions; AI was used to generate, debug and iterate code.
 
 PaperWake is a simple, distraction-free E-ink alarm clock. No apps, no subscriptions, just a clock that wakes you up without distractions.
 
