@@ -9,7 +9,7 @@
 constexpr int kRtcSdaPin = 21;
 #endif
 #ifndef RTC_SCL_PIN
-constexpr int kRtcSclPin = 3;
+constexpr int kRtcSclPin = 38;
 #endif
 
 constexpr uint8_t kRtcI2cAddr = 0x68;

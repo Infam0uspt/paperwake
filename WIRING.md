@@ -37,9 +37,9 @@
 | SK1612 LED strip DIN | 14 |
 | External "Snooze" button | 20 |
 | External "Alarm on/off" button | 19 |
+| DS3231 RTC SDA | 21 |
+| DS3231 RTC SCL | 38 |
 
 ## Still-free pins (expansion header)
 
-- GPIO 38
-- GPIO 21
 - GPIO 3 — deliberately avoided, boot-strapping pin

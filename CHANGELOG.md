@@ -23,7 +23,7 @@ Todas as mudanças notáveis neste projeto estão documentadas neste ficheiro.
 - Nova flag de build: `-DENABLE_RTC`
 - Novos ambientes PlatformIO: `rtc` e `battery-rtc`
 - Nova setting na tab System: "RTC" (On/Off)
-- DS3231 via I2C (GPIO 21=SDA, GPIO 3=SCL, endereço 0x68)
+- DS3231 via I2C (GPIO 21=SDA, GPIO 38=SCL, endereço 0x68)
 - NTP sincroniza RTC quando WiFi disponível
 - RTC usado como fallback quando WiFi/NTP indisponível
 

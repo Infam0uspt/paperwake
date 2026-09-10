@@ -75,3 +75,10 @@ constexpr int LED_STRIP_DATA = 14;
 // Last 2 free pins from the same expansion header as the pins above.
 constexpr int SNOOZE_BTN = 20;
 constexpr int ALARM_TOGGLE_BTN = 19;
+
+// DS3231 RTC (optional, gated by -DENABLE_RTC). I2C on the remaining
+// free expansion-header pins: GPIO 21=SDA, GPIO 38=SCL. GPIO 3 was
+// deliberately avoided because it is a boot-strapping pin on the
+// ESP32-S3. Address 0x68.
+constexpr int RTC_SDA_PIN = 21;
+constexpr int RTC_SCL_PIN = 38;

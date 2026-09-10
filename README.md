@@ -50,7 +50,7 @@ On WiFi, the device registers as `paperwake.local`. Access the web admin at `htt
 Enable with build flag `-DENABLE_BATTERY` or use the `battery` environment. Toggle "Battery" in System settings. When enabled, power-loss is detected and a one-time warning is shown on the e-paper before entering deep sleep.
 
 ### RTC (DS3231)
-Enable with build flag `-DENABLE_RTC` or use the `rtc` environment. Toggle "RTC" in System settings. Connect DS3231 to I2C (GPIO 21=SDA, GPIO 3=SCL). Time is maintained without WiFi; NTP syncs when available.
+Enable with build flag `-DENABLE_RTC` or use the `rtc` environment. Toggle "RTC" in System settings. Connect DS3231 to I2C (GPIO 21=SDA, GPIO 38=SCL). Time is maintained without WiFi; NTP syncs when available.
 
 ## Session Changes (2026-09-02)
 
