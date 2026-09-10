@@ -121,5 +121,5 @@ I’m sharing this because I think it’s useful context when looking at the cod
 
 ## Credits
 
-Original PaperWake project and firmware created by **Infam0uspt**.  
-Fork maintained at: https://github.com/Infam0uspt/paperwake
+Original PaperWake project and firmware created by **bricoleering**.  
+Upstream repo: https://github.com/bricoleering/paperwake
