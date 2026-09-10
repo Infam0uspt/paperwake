@@ -15,7 +15,6 @@ void initPower();
 // Battery voltage divider: Li-Ion (4.2V max) -> voltage divider
 // (100k + 100k) -> ADC1 channel 0 = GPIO 38.
 // ADC1_CH0 is on GPIO 38 (per ESP32-S3 datasheet, ADC1_CH0 = GPIO38).
-// GPIO 21 is unused; battery pin is GPIO 38.
 // Returns battery percentage (0-100), or 0 if on mains or if the
 // "Battery" setting is Off.
 int getBatteryPercent();

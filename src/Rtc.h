@@ -9,7 +9,7 @@
 //
 // Wiring (default, change these if your wiring differs):
 //   SDA -> GPIO 21
-//   SCL -> GPIO 3  (strapping pin — avoid if possible; see note below)
+//   SCL -> GPIO 3
 //   VCC -> 3.3V
 //   GND -> GND
 //

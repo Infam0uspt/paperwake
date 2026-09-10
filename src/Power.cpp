@@ -16,7 +16,7 @@
 // Battery voltage divider: Vbat --[R1=100k]-- ADC --[R2=100k]-- GND
 // ADC reads Vbat * R2/(R1+R2) = Vbat/2.
 // ADC1_CH0 = GPIO 38 on ESP32-S3.
-// GPIO 21 is unused; battery pin is GPIO 38.
+// Note: GPIO 21 is used for RTC SDA when -DENABLE_RTC is set.
 constexpr int kBatteryPin = 38;
 constexpr float kAdcReference = 3.3f;
 constexpr float kAdcMaxCount = 4095.0f;
