@@ -4,6 +4,36 @@ Todas as mudanças notáveis neste projeto estão documentadas neste ficheiro.
 
 ## [0.4.0] — Em desenvolvimento
 
+### Aviso
+- Este release ainda não foi testado em hardware real.
+
+### mDNS
+- Registado `paperwake.local` no WiFi
+- Reinicia mDNS ao trocar de rede WiFi
+- Para mDNS ao entrar em suspensão
+
+### Modo Bateria
+- Nova flag de build: `-DENABLE_BATTERY`
+- Novo ambiente PlatformIO: `battery`
+- Nova setting na tab System: "Battery" (On/Off)
+- Deteção de power-loss: transição mains→battery define flag
+- E-paper mostra aviso "Power loss" uma única vez
+
+### RTC DS3231
+- Nova flag de build: `-DENABLE_RTC`
+- Novos ambientes PlatformIO: `rtc` e `battery-rtc`
+- Nova setting na tab System: "RTC" (On/Off)
+- DS3231 via I2C (GPIO 21=SDA, GPIO 3=SCL, endereço 0x68)
+- NTP sincroniza RTC quando WiFi disponível
+- RTC usado como fallback quando WiFi/NTP indisponível
+
+### Simulador Wokwi
+- Scaffold mínimo em `wokwi/` com ESP32-S3 + ST7735 + encoder + botões
+- Loop de relógio, alarme, menu de settings e snooze
+
+### Compilação
+- Todos os 6 ambientes PlatformIO compilam com sucesso
+
 ### Fontes com acentos portugueses
 - Regeneradas todas as 14 fontes com range Latin-1 (0x20–0xFF) via `tools/regenerate_fonts.py`
 - Acentos portugueses agora renderizam corretamente no e-paper (á é ç Ã ã etc.)

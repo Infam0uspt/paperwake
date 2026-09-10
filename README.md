@@ -1,5 +1,7 @@
 # PaperWake
 
+> **Aviso:** Este código ainda não foi testado em hardware real. As funcionalidades abaixo foram implementadas e compilam, mas precisam de validação física.
+
 PaperWake is a simple, distraction-free E-ink alarm clock. No apps, no subscriptions, just a clock that wakes you up without distractions.
 
 ## Features
@@ -49,6 +51,50 @@ Enable with build flag `-DENABLE_BATTERY` or use the `battery` environment. Togg
 
 ### RTC (DS3231)
 Enable with build flag `-DENABLE_RTC` or use the `rtc` environment. Toggle "RTC" in System settings. Connect DS3231 to I2C (GPIO 21=SDA, GPIO 3=SCL). Time is maintained without WiFi; NTP syncs when available.
+
+## Session Changes (2026-09-02)
+
+### mDNS Support
+- `paperwake.local` is registered on WiFi connect
+- mDNS restarts on WiFi network switch
+- mDNS stops on suspend/deep sleep
+
+### Battery Mode
+- New build flag: `-DENABLE_BATTERY`
+- New PlatformIO environment: `battery`
+- New setting in System tab: "Battery" (On/Off), index 15
+- Power-loss detection: transition from mains→battery sets a flag
+- E-paper shows "Power loss" warning once, then clears after next full clock draw
+
+### DS3231 RTC Support
+- New build flag: `-DENABLE_RTC`
+- New PlatformIO environment: `rtc`
+- New build environment: `battery-rtc` (both features)
+- New setting in System tab: "RTC" (On/Off), index 16
+- DS3231 via I2C (GPIO 21=SDA, GPIO 3=SCL, address 0x68)
+- NTP syncs RTC when WiFi is available
+- RTC used as fallback when WiFi/NTP is unavailable
+
+### Files Added/Modified
+- `src/Rtc.h`, `src/Rtc.cpp` — DS3231 driver
+- `src/Power.h`, `src/Power.cpp` — battery/power-loss logic
+- `src/WebAdmin.cpp` — mDNS start/stop/restart
+- `src/SettingsMenu.cpp` — Battery/RTC settings entries
+- `src/SettingsMenu.h` — `getBatteryEnabled()`, `getRtcEnabled()`
+- `src/main.cpp` — power-loss flag, RTC init, clock draw updates
+- `src/EpaperDisplay.cpp`, `src/EpaperDisplay.h` — `powerLossWarning` parameter
+- `src/TimeSync.cpp`, `src/TimeSync.h` — `initRtc()`, RTC fallback
+- `platformio.ini` — added `battery`, `rtc`, `battery-rtc` environments
+- `wokwi/` — Wokwi simulation scaffold (ESP32-S3 + ST7735 + encoder + buttons)
+
+### Build Verification
+All 6 PlatformIO environments build successfully:
+- `esp32-s3-devkitc-1`
+- `settings-shifted`
+- `led_strip_test`
+- `battery`
+- `rtc`
+- `battery-rtc`
 
 ## Status
 
